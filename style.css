@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.9) 100%),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/a99688ca-33c3-4099-9baa-07a2e2acb398/ca15fd28-b624-4852-8bfe-9cdd5c88475d/IN-en-20240520-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 700px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.home .top img{
+    width: 12vw;
+    margin-top: 5px;
+    margin-left: 160px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.toprt{
+    margin-top: 30px;
+    display: flex;
+    padding-right: 175px;
+}
+.toprt select{
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(90, 89, 89);
+    width: 135px;
+    height: 32px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.toprt button{
+    background-color: red;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    width: 80px;
+    height: 32px;
+    margin-left: 25px;
+    font-weight: 600;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 165px;
+}
+h1{
+    font-family: Roboto;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+h3{
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    margin-top: 15px;
+}
+p{
+    font-family: sans-serif;
+    font-size: 21px;
+    color: white;
+    font-weight: 200;
+    margin-top: 8px;
+}
+.mail{
+    display: flex;
+}
+.mail input{
+    width: 400px;
+    height: 53px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgb(99, 99, 99);
+    padding-left: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+}::placeholder{
+    color: rgb(160, 156, 156);
+}
+.mail button{
+    display: block;
+    width: 200px;
+    height: 56px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    border: 0;
+    margin-left: 8px;
+}
+hr{
+    margin-top: 0;
+    height: 10px;
+    color: rgb(54, 54, 54);
+    background-color: rgb(55, 54, 54);
+    border: 0;
+    margin-bottom: 0;
+}
+.div2{
+    background-color: black;
+    height: 550px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.bg{
+    width: 200px;
+    height: 100px;
+    margin-left: 85px;
+    margin-top: 99px;
+    position: absolute;
+}
+.bg img{
+    width: 465px;
+}
+.txt{
+    width: 50%;
+    padding-left: 200px;
+}
+.imag{
+    width: 50%;
+    padding-right: 100px;
+}
+.imag img{
+    position: relative;
+}
+.div3{
+    background-color: black;
+    height: 550px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imag1 img{
+    width: 550px;
+    margin-left: 150px;
+
+}
+.txt1{
+    padding-left: 10px;
+    padding-right: 250px;
+}
+.div4{
+    background-color: black;
+    height: 550px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.txt2
+{
+    padding-left: 200px;
+}
+.imag2 img{
+    width: 550px;
+    margin-right: 200px;
+    position:relative;
+}
+.bg1{
+    width: 330px;
+    height: 100px;
+    margin-left: 108px;
+    margin-top: 30px;
+    position: absolute;
+}
+.div5{
+    background-color: black;
+    height: 550px;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    margin-bottom: 0;
+}
+.imag3 img{
+    width: 550px;
+    margin-left: 100px;
+    margin-right: 30px;
+}
+.div6{
+    background-color: black;
+    height: 550px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
